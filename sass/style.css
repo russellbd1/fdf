@@ -1,0 +1,807 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+a,
+p,
+span,
+input,
+form,
+.btn,
+.lead,
+.navbar,
+.nav-link,
+.nav-item,
+.nav-brand,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+/* Mixins */
+/* Extend/Inheritance */
+.guide_part .guide_heading h1, .explore_part .exlore_heading h1, .booking_part .booking_form h1, .booking_part .booking_content h1, .package_part .package_heading h1, .destination_part .desti_heading h1, .service_part .service_heading h1, .about_part .about_content h1, .banner_part .carousel-item .banner_overlay .banner_text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+}
+
+.banner_part .carousel-item .banner_overlay .banner_text h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+}
+
+.footer_part .footer_item h4, .footer_part .footer_icon .footer_icon_head h4, .guide_part .guide_items .guide_content h4, .package_part .package_item .package_content .package_text h4, .service_part .service_Text_item .service_content h4, .about_part .about_content h4, .banner_part .carousel-item .banner_overlay .banner_text h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+.guide_part .guide_items .guide_content h5, .guide_part .guide_heading h5, .explore_part .exlore_heading h5, .booking_part .booking_content h5, .package_part .package_item .package_content .package_text h5, .package_part .package_heading h5, .destination_part .desti_heading h5, .service_part .service_Text_item .service_content h5, .service_part .service_heading h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.explore_part .exlore_heading p, .booking_part .booking_form p, .booking_part .booking_content p, .package_part .package_item .package_content .package_text p, .service_part .service_Text_item .service_content p, .about_part .about_content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.footer_part .footer_item a, .footer_part .footer_icon .foot_social a, .navbar_part .navbar-nav .nav-item .dropdown-menu li a, .navbar_part .navbar-nav .nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  transition: all linear 0.4s;
+}
+
+.banner_part .carousel-item {
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.btn-sm-square {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+/*=============== header_part end =================*/
+.header_part {
+  padding: 5px 20px;
+  background: #fd7e14;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*=============== header_part end =================*/
+/*=============== navbar_part start =================*/
+.navbar_part {
+  padding: 0 20px;
+  background: rgba(7, 7, 7, 0.31);
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  z-index: 2222;
+}
+.navbar_part .navbar-nav .nav-item {
+  margin-right: 15px;
+  transition: all linear 0.4s;
+}
+.navbar_part .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 20px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.navbar_part .navbar-nav .nav-item .nav-link.active {
+  color: #fff;
+  background: #0872b9;
+}
+.navbar_part .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+  background: #0872b9;
+  border-radius: 5px;
+}
+.navbar_part .navbar-nav .nav-item .dropdown-menu {
+  top: 70%;
+  left: -8px;
+  margin-top: 25px;
+}
+.navbar_part .navbar-nav .nav-item .dropdown-menu li {
+  border-bottom: 1px solid #d3d6d4;
+}
+.navbar_part .navbar-nav .nav-item .dropdown-menu li:last-child {
+  border-bottom: 0;
+}
+.navbar_part .navbar-nav .nav-item .dropdown-menu li a {
+  font-weight: 500;
+  color: #0872b9;
+  font-size: 14px;
+}
+.navbar_part .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #D1E7DD;
+}
+.navbar_part .btn-outline-success {
+  color: #fff;
+  font-weight: 600;
+  background: #0872b9;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: 0;
+}
+.navbar_part .btn-outline-success:hover {
+  color: #0872b9;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.fix {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fd7e14;
+}
+
+/*=============== navbar_part end =================*/
+/*=============== banner_part start =================*/
+.banner_part .carousel-indicators button {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  line-height: 10px;
+  background: #0872b9;
+  border-radius: 50%;
+  opacity: 1;
+  border: none;
+  position: relative;
+  margin-bottom: 80px;
+}
+.banner_part .carousel-indicators button:after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  content: "";
+  border: 1px solid #0872b9;
+  border-radius: 50%;
+}
+.banner_part .carousel-indicators button.active {
+  background: #fd7e14;
+}
+.banner_part .carousel-indicators button.active:after {
+  border-color: #fd7e14;
+}
+.banner_part .carousel-item {
+  height: 100vh;
+}
+.banner_part .carousel-item .banner_overlay {
+  background: rgba(0, 0, 0, 0.397);
+}
+.banner_part .carousel-item .banner_overlay .banner_text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner_part .carousel-item .banner_overlay .banner_text h4 {
+  color: #ffffff;
+}
+.banner_part .carousel-item .banner_overlay .banner_text h1 {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 65px;
+  font-weight: 600;
+}
+.banner_part .carousel-item .banner_overlay .banner_text h3 {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 0px;
+  line-height: 1.5;
+}
+.banner_part .carousel-item .banner_overlay .banner_text .btn {
+  padding: 10px 40px;
+  background: #fd7e14;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  transition: all linear 0.4s;
+}
+.banner_part .carousel-item .banner_overlay .banner_text .btn:hover {
+  background: #0d6efd;
+}
+
+/*=============== banner_part end =================*/
+/*=============== search_part start =================*/
+.search-bar button {
+  font-family: "Inter", sans-serif;
+}
+
+/*=============== search_part end =================*/
+/*=============== about_part start =================*/
+.about_part {
+  padding: 60px 0;
+}
+.about_part .about_content {
+  margin-top: 70px;
+}
+.about_part .about_content h4 {
+  color: #0872b9;
+  font-weight: 700;
+}
+.about_part .about_content h1 {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.about_part .about_content h1 span {
+  color: #fd7e14;
+}
+.about_part .about_content p {
+  font-size: 16px;
+}
+.about_part .about_content .btn_about {
+  background: #0872b9;
+  padding: 5px 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+/*=============== about_part end =================*/
+/*=============== service_part start =================*/
+.service_part {
+  padding: 0 0 60px;
+}
+.service_part .service_heading h5 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.service_part .service_heading h1 {
+  font-weight: bold;
+}
+.service_part .service_Text_item {
+  transition: all linear 0.4s;
+  border: 1px solid #0872b9;
+}
+.service_part .service_Text_item .service_content h5 {
+  font-weight: 700;
+  transition: all linear 0.4s;
+}
+.service_part .service_Text_item .service_content h4 {
+  transition: all linear 0.4s;
+}
+.service_part .service_Text_item .service_content p {
+  line-height: 1.6;
+  font-size: 16px;
+  transition: all linear 0.4s;
+}
+.service_part .service_Text_item .service_icon a i {
+  font-size: 60px;
+  transition: all linear 0.4s;
+  color: #0872b9;
+}
+.service_part .service_Text_item:hover {
+  background: #0872b9;
+}
+.service_part .service_Text_item:hover .service_content h5,
+.service_part .service_Text_item:hover .service_content h4,
+.service_part .service_Text_item:hover .service_content p {
+  color: #fff;
+}
+.service_part .service_Text_item:hover .service_icon a i {
+  color: #fff;
+}
+
+/*=============== service_part end =================*/
+/*=============== destination_part start =================*/
+.destination_part {
+  padding: 0 0 60px;
+}
+.destination_part .desti_heading h5 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.destination_part .desti_heading h1 {
+  font-weight: 700;
+}
+.destination_part .desti_image {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.destination_part .desti_image img {
+  transition: 0.4s;
+}
+.destination_part .desti_image .desti_overlay {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  z-index: 3;
+  transition: 0.4s;
+}
+.destination_part .desti_image .desti_overlay .btn_desti {
+  color: #ffffff;
+  background: #0872b9;
+}
+.destination_part .desti_image .desti_overlay .btn_desti:hover {
+  background: #fff;
+  color: #0872b9;
+}
+.destination_part .desti_image .search_icon i {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  top: 30px;
+  right: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 38px;
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.4s;
+}
+.destination_part .desti_image:hover .search_icon i {
+  opacity: 1;
+}
+.destination_part .desti_image:hover .desti_overlay {
+  bottom: 0;
+}
+.destination_part .desti_image:hover img {
+  transform: scale(1.2);
+}
+
+/*=============== destination_part end =================*/
+/*=============== package_part start =================*/
+.package_part {
+  padding: 0 0 60px;
+}
+.package_part .package_heading h5 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.package_part .package_heading h1 {
+  font-weight: 700;
+}
+.package_part .package_item .package_image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+.package_part .package_item .package_image img {
+  width: 100%;
+  transition: 0.5s;
+}
+.package_part .package_item .package_image .package_info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(14, 14, 69, 0.411);
+}
+.package_part .package_item .package_image .package_info small {
+  color: #ffffff;
+}
+.package_part .package_item .package_image .package_price {
+  background-color: #0872b9;
+  color: #fff;
+  padding: 5px 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.package_part .package_item .package_image:hover img {
+  transform: scale(1.2);
+}
+.package_part .package_item .package_content .package_text h5 {
+  color: #969191;
+  font-size: 16px;
+}
+.package_part .package_item .package_content .package_text p {
+  font-size: 16px;
+}
+.package_part .package_item .package_content .package_foot {
+  background: #0872b9;
+}
+.package_part .clints_slider {
+  position: relative;
+}
+.package_part .clints_slider.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 1%;
+  top: 0%;
+  transform: translateY(50%);
+}
+.package_part .clints_slider.owl-carousel .owl-nav .owl-prev i {
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #000;
+  line-height: 30px;
+  border-radius: 50px;
+}
+.package_part .clints_slider.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 1%;
+  top: 0%;
+  transform: translateY(50%);
+}
+.package_part .clints_slider.owl-carousel .owl-nav .owl-next i {
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #000;
+  line-height: 30px;
+  border-radius: 50px;
+}
+
+/*=============== package_part end =================*/
+/*=============== booking_part start  =================*/
+.booking_part {
+  padding: 60px 0;
+  background: linear-gradient(rgba(19, 53, 123, 0.8), rgba(19, 53, 123, 0.8)), url(../image/tour-booking-bg33.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.booking_part .booking_content h5 {
+  color: #fff;
+  font-weight: 700;
+}
+.booking_part .booking_content h1 {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.booking_part .booking_content p {
+  color: #fff;
+  font-size: 16px;
+}
+.booking_part .booking_content .Booking_btn {
+  padding: 10px 15px;
+  background: #fff;
+  color: #000;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.booking_part .booking_form h1 {
+  font-weight: bold;
+}
+.booking_part .booking_form p {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 0;
+}
+.booking_part .booking_form form {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.booking_part .booking_form form .booking_btn {
+  background-color: #2bd4d4;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+/*=============== booking_part end =================*/
+/*=============== explore_part start =================*/
+.explore_part {
+  padding: 60px 0;
+}
+.explore_part .exlore_heading h5 {
+  font-weight: 700;
+}
+.explore_part .exlore_heading h1 {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.explore_part .exlore_heading p {
+  font-size: 16px;
+}
+.explore_part .tab-class .nav-item a {
+  color: #000;
+  font-weight: 600;
+}
+.explore_part .tab-class .nav-item a.active {
+  background-color: #2a302a !important;
+  color: #f1f1f1;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item img {
+  width: 100%;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item .national-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  padding: 20px;
+  background: rgba(24, 23, 23, 0.315);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item .national-plus-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item .tour-offer {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 20px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 80px;
+  background: #b80952;
+  color: #fff;
+}
+.explore_part .tab-class #exlore_tab-1 .national-item:hover img {
+  transform: scale(1.3);
+}
+.explore_part .tab-class #exlore_tab-1 .national-item:hover .national-content {
+  background: rgba(24, 24, 23, 0.664);
+}
+.explore_part .tab-class #exlore_tab-1 .national-item:hover .national-plus-icon {
+  opacity: 1;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel.owl-carousel .owl-dots {
+  text-align: center;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel.owl-carousel .owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  background: #2cbdb8;
+  border-radius: 50%;
+  margin: 5px;
+  position: relative;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel.owl-carousel .owl-dots .owl-dot:after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  content: "";
+  border: 1px solid #2cbdb8;
+  border-radius: 50%;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel.owl-carousel .owl-dots .owl-dot.active {
+  background: #fd7e14;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel.owl-carousel .owl-dots .owl-dot.active:after {
+  border-color: #fd7e14;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item img {
+  width: 100%;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item .international-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  padding: 20px;
+  background: rgba(24, 23, 23, 0.315);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item .international-plus-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item .tour-offer {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 20px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 80px;
+  background: #b80952;
+  color: #fff;
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item:hover img {
+  transform: scale(1.3);
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item:hover .international-content {
+  background: rgba(24, 24, 23, 0.664);
+}
+.explore_part .tab-class #exlore_tab-2 .InternationalTour-carousel .international-item:hover .international-plus-icon {
+  opacity: 1;
+}
+
+/*=============== explore_part end =================*/
+/*=============== guide_part start =================*/
+.guide_part {
+  padding: 0 0 60px;
+}
+.guide_part .guide_heading h5 {
+  font-weight: 700;
+}
+.guide_part .guide_heading h1 {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.guide_part .guide_items {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.guide_part .guide_items .guide_image {
+  overflow: hidden;
+}
+.guide_part .guide_items .guide_image img {
+  width: 100%;
+}
+.guide_part .guide_items .guide_image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: all linear 0.4s;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.guide_part .guide_items .guide_content {
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+.guide_part .guide_items .guide_content .guide_social {
+  background-color: #ffffff;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  z-index: 3;
+}
+.guide_part .guide_items .guide_content .guide_social a i {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #07578d;
+  border: 1px solid #07578d;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  transition: all linear 0.4s;
+}
+.guide_part .guide_items .guide_content .guide_social a:hover i {
+  background: 0;
+  color: #07578d;
+}
+.guide_part .guide_items .guide_content .guide_text_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: all linear 0.4s;
+  background-color: rgba(15, 18, 196, 0.3647058824);
+}
+.guide_part .guide_items .guide_content h4 {
+  margin-top: 20px;
+  font-weight: 700;
+}
+.guide_part .guide_items .guide_content h5 {
+  font-size: 14px;
+  color: #918e8e;
+  margin-top: 5px;
+}
+.guide_part .guide_items:hover .guide_image_overlay {
+  height: 100%;
+}
+.guide_part .guide_items:hover .guide_text_overlay {
+  height: 100%;
+}
+
+/*=============== guide_part end =================*/
+/* =============== footer_part start ================= */
+.footer_part {
+  padding: 60px 0;
+  background: #353535;
+}
+.footer_part .footer_icon .foot_social a {
+  color: #ffffff;
+  margin-bottom: 5px;
+  transition: all linear 0.4s;
+}
+.footer_part .footer_icon .foot_social a:hover {
+  letter-spacing: 2px;
+}
+.footer_part .footer_icon .foot_social_icon a i {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #fd7e14;
+  border: 1px solid #fd7e14;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  transition: all linear 0.4s;
+}
+.footer_part .footer_icon .foot_social_icon a:hover i {
+  background: #07578d;
+  border: 1px solid #07578d;
+}
+.footer_part .footer_item a {
+  color: #ffffff;
+  margin-bottom: 5px;
+  transition: all linear 0.4s;
+}
+.footer_part .footer_item a:hover {
+  letter-spacing: 2px;
+}
+
+/* =============== footer_part end ================= *//*# sourceMappingURL=style.css.map */

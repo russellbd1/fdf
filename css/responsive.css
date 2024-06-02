@@ -1,0 +1,230 @@
+/* Mobile devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+  .header_part {
+    display: none;
+  }
+
+  .navbar_part {
+    background: #fd7e14;
+    position: unset;
+    padding: 10px 0;
+  }
+
+  .navbar_part .navbar-nav {
+    margin-top: 20px;
+
+  }
+
+  .navbar_part .navbar-nav .nav-item .nav-link {
+    padding: 10px 5px;
+  }
+
+  .fix {
+    width: 100%;
+    position: unset;
+  }
+
+  .banner_part .carousel-indicators button {
+    margin-bottom: 50px;
+  }
+
+  .banner_part .carousel-item {
+    height: 80vh;
+  }
+
+  .banner_part .carousel-item .banner_overlay .banner_text h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    ;
+  }
+
+  .banner_part .carousel-item .banner_overlay .banner_text h1 {
+    font-size: 28px;
+  }
+
+  .banner_part .carousel-item .banner_overlay .banner_text h3 {
+    font-size: 16px;
+
+  }
+
+  .banner_part .carousel-item .banner_overlay .banner_text .btn {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 10px 25px;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .about_part {
+    padding: 40px 0;
+  }
+
+  .about_part .about_content {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .about_part .about_content h1 {
+    font-size: 32px;
+  }
+
+
+  .service_part {
+    padding: 40px 0;
+  }
+
+  .service_part .service_heading h1 {
+    font-size: 32px;
+  }
+
+  .destination_part .desti_heading h1,
+  .package_part .package_heading h1 {
+    font-size: 32px;
+  }
+
+  .booking_part .booking_form h1 {
+    font-size: 32px;
+  }
+
+  .explore_part .exlore_heading h1 {
+    font-size: 32px;
+    ;
+  }
+
+  .explore_part .tab-class .nav-item .russell {
+    margin-top: 20px;
+  }
+
+  .guide_part .guide_heading h1 {
+    font-size: 32px;
+    ;
+  }
+
+  .footer_part .footer_icon {
+    text-align: center;
+  }
+
+  .footer_part .footer_item {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .footer_part .form-floating {
+    margin-top: 15px;
+
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .header_part {
+    display: none;
+  }
+
+  .navbar_part {
+    background: #fd7e14;
+    position: unset;
+    padding: 10px 0;
+  }
+
+  .banner_part .carousel-indicators button {
+    margin-bottom: 50px;
+  }
+
+  .navbar_part .navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar_part .navbar-nav .nav-item .nav-link {
+    padding: 10px 5px;
+  }
+
+  .banner_part .carousel-item {
+    height: 90vh;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .banner_part .carousel-item .banner_overlay .banner_text h1 {
+    font-size: 38px;
+    padding-top: 10px;
+  }
+
+  .service_part {
+    padding: 40px 0;
+  }
+
+  .explore_part .tab-class .nav-item .russell {
+    margin-top: 20px;
+  }
+
+  .footer_part .footer_item {
+    margin-top: 25px;
+  }
+
+  .footer_part .form-floating {
+    margin-top: 15px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .header_part {
+    display: none;
+  }
+
+  .navbar_part {
+    background: #fd7e14;
+    position: unset;
+    padding: 10px 0;
+  }
+  .navbar_part .navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar_part .navbar-nav .nav-item .nav-link {
+    padding: 10px 5px;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .navbar_part .navbar-nav .nav-item {
+    margin-right: 5px;   
+  }
+  .navbar_part .navbar-nav .nav-item .nav-link {   
+    font-size: 14px;
+  }
+  .guide_part .guide_items .guide_content .guide_social {   
+    padding: 5px;   
+  }
+  .guide_part .guide_items .guide_content .guide_social a i {
+    height: 25px;
+    width: 25px; 
+    line-height: 25px;   
+  }
+  .footer_part .footer_icon .foot_social_icon a i {
+    height: 25px;
+    width: 25px;
+   
+    line-height: 25px;
+  
+  }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
